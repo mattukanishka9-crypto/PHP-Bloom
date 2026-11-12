@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #FFF9F0,
+        #FCE4EC
+    );
+    color: #684653;
+    line-height: 1.65;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(
+        135deg,
+        #d994a9,
+        #e8a9b8,
+        #f3c6d2
+    );
+    color: #ffffff;
+    text-align: center;
+    padding: 26px 16px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 20px rgba(190, 120, 145, 0.22);
+}
+
+/* Container */
+.container {
+    max-width: 880px;
+    margin: 40px auto;
+    padding: 0 18px;
+}
+
+/* Name Card */
+.name-card {
+    background: rgba(255, 249, 240, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    margin-bottom: 36px;
+    border: 1.5px solid #edc1cd;
+    box-shadow: 0 8px 24px rgba(190, 120, 145, 0.12);
+}
+
+.name-card h1 {
+    font-size: 28px;
+    color: #9b536b;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.name-card .subtitle {
+    color: #b66d85;
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.name-card .title {
+    color: #684653;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* Sections */
+.section {
+    background: rgba(255, 249, 240, 0.72);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid #edc1cd;
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 20px rgba(190, 120, 145, 0.10);
+    transition: all 0.3s ease;
+}
+
+.section:hover {
+    border-color: #d994a9;
+    box-shadow: 0 10px 28px rgba(190, 120, 145, 0.20);
+    transform: translateY(-3px);
+}
+
+.section h2 {
+    font-size: 19px;
+    color: #96516a;
+    margin-bottom: 16px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #e8a9b8;
+    letter-spacing: 0.3px;
+}
+
+.section ol {
+    padding-left: 22px;
+}
+
+.section li {
+    margin-bottom: 12px;
+    font-size: 15.5px;
+    color: #684653;
+}
+
+.section a {
+    color: #b45f7c;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.section a:hover {
+    color: #8f405e;
+    border-bottom-color: #d994a9;
+}
+
+/* Section Divider */
+.section-divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(
+        to right,
+        #d994a9,
+        #f3c6d2,
+        transparent
+    );
+    margin: 18px 0 22px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px 20px 40px;
+    color: #987b84;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+
+.name-card {
+    background: rgba(255, 249, 240, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1.5px solid #edc1cd;
+    border-radius: 18px;
+    padding: 35px 24px;
+    text-align: center;
+    margin-bottom: 36px;
+    box-shadow: 0 8px 24px rgba(190, 120, 145, 0.12);
+}
+
+.name-card h1 {
+    font-size: 36px;
+    color: #9b536b;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.name-card .tagline {
+    color: #b66d85;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 17px;
+}
+
+.name-card h2 {
+    color: #684653;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.name-card .platform-name {
+    color: #987b84;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Unit Heading Box */
+.section h2 {
+    background: #FCE8ED;
+    color: #92516A;
+    font-size: 19px;
+    padding: 14px 16px;
+    margin: -26px -28px 18px;
+    border-bottom: 2px solid #E8A9B8;
+    border-radius: 13px 13px 0 0;
+    letter-spacing: 0.3px;
+}
+
+
+.section p {
+    color: #A96B80;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 920px;
+    margin: 40px auto;
+    padding: 0 18px;
+}
